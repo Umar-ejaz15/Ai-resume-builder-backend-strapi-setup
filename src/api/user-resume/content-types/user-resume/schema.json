@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "tittle": {
+      "type": "string"
+    },
+    "userUid": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "experience": {
+      "type": "json"
+    },
+    "education": {
+      "type": "json"
+    },
+    "skills": {
+      "type": "json"
+    },
+    "tools": {
+      "type": "json"
+    },
+    "languages": {
+      "type": "json"
+    },
+    "databases": {
+      "type": "json"
+    },
+    "frameworks": {
+      "type": "json"
+    },
+    "projects": {
+      "type": "json"
+    },
+    "certifications": {
+      "type": "json"
+    }
+  }
+}
